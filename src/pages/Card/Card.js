@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 export default function Card(props) {
   const navigate = useNavigate();
   return (
+    /*
+    this is to just to test */
     <>
       <div className={style.card}>
         <div className={style.cardbody}>
