@@ -1,0 +1,32 @@
+.forgotContainer {
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	outline: 2px solid rgba(37, 38, 68, 0.1);
+	outline-offset: -2px;
+}
+
+img.forgotImg {
+	display: none;
+	margin: 0 0 10px 0;
+}
+
+.forgotForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+	.forgotContainer {
+		width: 100vw;
+		outline: none;
+	}
+	img.forgotImg {
+		display: block;
+	}
+}

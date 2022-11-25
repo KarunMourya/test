@@ -1,0 +1,54 @@
+.accordion_item{
+  border: 1px solid black;
+}
+  /* activate toggle */
+  .accordion_item.active .button {
+    background-color: white;
+  }
+  .answer_wrapper {
+    height: 0;
+    overflow: hidden;
+    transition: height ease 0.2s;
+  }
+  
+  .button {
+    font-size: 14px;
+    background-color: white;
+    color:black;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 18px 8px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .control {
+    font-size: 16px;
+  }
+  
+  .answer {
+    width: 100%;
+    background-color: #f7f7f7;
+  }
+  @media screen and (max-width:900px){
+    .button {
+      font-size: 14px;
+      background-color: white;
+      color:black;
+      font-weight: 700;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+     padding: 2%;
+      cursor: pointer;
+      text-align: justify;
+      border: none;
+    }
+    .answer{
+      text-align: justify;
+    }
+  } 

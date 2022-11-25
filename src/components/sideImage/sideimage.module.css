@@ -1,0 +1,18 @@
+.imgContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50vw;
+	overflow: hidden;
+}
+
+.imgContainer img {
+	height: 65vh;
+	width: 50vw;
+}
+
+@media screen and (max-width: 900px) {
+	.imgContainer {
+		display: none;
+	}
+}

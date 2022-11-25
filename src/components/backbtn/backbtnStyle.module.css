@@ -1,0 +1,22 @@
+.backbtn {
+	/* border: 1px solid black; */
+	width: 50vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.backbtn img {
+	margin: 20px 0 0 20px;
+	height: 25px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+	.backbtn {
+		width: 100vw;
+	}
+	.backbtn img {
+		height: 18px;
+	}
+}

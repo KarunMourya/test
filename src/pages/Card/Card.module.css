@@ -1,0 +1,91 @@
+.card {
+    border: 1px solid beige;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height:100%;
+    background-color: #f5f7fa;
+  }
+  @media screen  and (max-width: 900px){
+    .card{
+      width:90%;
+    }
+  }
+  .cardimgtop {
+    width: 50%;
+    border-radius: 5%;
+  }
+  .cardbody{
+display: flex;
+flex-direction: column;
+    width: 50%;
+    border-radius: 5%;
+  }
+
+.ackbutton{
+  margin-bottom: 1%;
+  display: flex;
+ flex-direction: row;
+  width: 100%;
+  gap: 10%;
+  justify-content: center;
+}  
+
+.pending{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.pending > p {
+  margin: 0;
+  padding-left: 8%;
+  font-size: 100%;
+  font-weight: 700;
+}
+
+.save{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.save > p {
+  padding-left: 10%;
+  font-size: 100%;
+  font-weight: 700;
+}
+.ack{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  gap:1%;
+}
+.ack > p {
+  font-size: 20px;
+
+}
+.btn {
+  background-color: #00e4a1;
+  border: 0;
+  border-radius: 12px;
+  margin: 2%;
+  width: fit-content;
+  height: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0, 228, 161, 0.4);
+  
+}
+.btton{
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+}  

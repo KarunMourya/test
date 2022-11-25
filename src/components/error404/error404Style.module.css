@@ -1,0 +1,30 @@
+.errContainer {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.errContainer img {
+	height: 50vh;
+	width: 100vw;
+}
+
+p {
+	margin: 10px 0 0 0;
+}
+
+.oops {
+	font-weight: bold;
+	font-size: 4.5rem;
+	color: #252644;
+}
+
+.errText {
+	font-weight: 400;
+	font-size: 1rem;
+	color: rgba(37, 38, 68, 0.6);
+}

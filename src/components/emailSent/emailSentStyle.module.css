@@ -1,0 +1,32 @@
+.emailSentContainer {
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	outline: 2px solid rgba(37, 38, 68, 0.1);
+	outline-offset: -2px;
+}
+
+img.emailSentImg {
+	display: none;
+	margin: 0 0 10px 0;
+}
+
+.emailSentForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+	.emailSentContainer {
+		width: 100vw;
+		outline: none;
+	}
+	img.emailSentImg {
+		display: block;
+	}
+}

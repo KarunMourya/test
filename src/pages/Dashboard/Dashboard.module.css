@@ -1,0 +1,54 @@
+.user_dashboard {
+  position: absolute;
+  z-index: 2;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #252644;
+}
+.user_contain {
+  margin-left: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 2%;  
+}
+.Pending,.Waiting{
+display: flex;
+flex-direction: column;
+
+}
+.greeting {
+  margin: 0;
+  font-size: 20px;
+}
+.name {
+  margin: 0;
+  font-size: 30px;
+}
+
+.scroll {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: scroll;
+}
+@media screen and (max-width: 900px) {
+  .user_contain {
+    position: absolute;
+    margin: 3%;
+    width: 100%;
+  }
+}

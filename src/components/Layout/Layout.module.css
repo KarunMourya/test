@@ -1,0 +1,50 @@
+.back {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f7fa;
+}
+.sidebar {
+  background-color: lavenderblush;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+.layoutContentMain {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  width: 80%;
+  background: #ffffff;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.centeralcontainer {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  width: 70%;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+}
+.mobile {
+  display: none;
+}
+.profilecontainer {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (max-width: 900px) {
+  .profilecontainer {
+    display: none;
+  }
+  .centeralcontainer {
+    width: 100%;
+  }
+  .mobile {
+    display: contents;
+  }
+}

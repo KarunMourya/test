@@ -1,0 +1,23 @@
+.inputField {
+	background-color: #f5f7fa;
+	outline: none;
+	border: 0;
+	border-radius: 15px;
+	margin: 15px;
+	height: 42px;
+	width: 250px;
+	padding: 0 20px 0 20px;
+	color: #252644;
+	font-weight: 500;
+	font-size: 0.95rem;
+}
+
+input:focus {
+	outline: none;
+}
+
+::placeholder {
+	color: #9d9d9d;
+	font-weight: 500;
+	font-size: 0.95rem;
+}

@@ -1,0 +1,31 @@
+.titlecontain{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.titlecontain > img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.subcontain{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+.imageholder > img{
+    width: 50%;
+    border-radius: 10%;
+}
+.indiviual{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: space-between;
+}
+@media screen and (max-width:900px){
+    .desc{
+        width:50%;
+    }
+}

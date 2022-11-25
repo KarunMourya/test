@@ -1,0 +1,165 @@
+.productpost{
+  position: absolute;
+  border-radius: 30px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  height: 94.5%;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.formnewgroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #2A2C41;
+  }
+  .formgroup{
+    display: flex;
+    flex-direction: column;
+     font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #2A2C41;
+  }
+  .lineContain{
+    display: flex;
+    flex-direction: column;
+text-align: center;
+    align-items: center;
+  }
+  .Box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+  }
+  .bar{
+    width: 60px;
+    text-align: center;
+    height: 40px;
+    background: #F4F6F9;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+.desc{
+width: 90%;
+height: 100px;
+padding: 0 20px 0 20px;
+border: none;
+margin-left:15px ;
+margin-top: 15px;
+background: #F4F6F9;
+box-sizing: border-box;
+border-radius: 15.2951px;
+text-align:left;
+}
+.formimggroup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customfileupload {
+  width: 80%;
+  height: 90px;
+padding: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+border: dotted 5px #63d3a6;
+}
+
+.imgwrap{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.imgupload:before{
+  position: absolute;
+  padding-top: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #63d3a6;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+.imgupload:hover:before{
+ opacity: 1;
+}
+img {
+  width: 280px;
+  height: 100%;
+}
+.formContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+  .inputField {
+    background-color: #f5f7fa;
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    margin: 15px;
+    height: 30px;
+    width: 80%;
+    padding: 0 20px 0 20px;
+    color: #252644;
+    font-weight: 500;
+  }
+  
+  input:focus {
+    outline:font none;
+  }
+  
+  ::placeholder {
+    color: #9d9d9d;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  .group{
+    margin-top: -3%;
+    margin-left: 5%;
+  }
+  .btn{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width:900px){
+  .productpost{
+    height: 90%;
+    width: 100%;
+  }
+  .formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+  }
+  .desc{
+    width: 85%;
+    height:10vh;
+  }    
+  .btn{
+    margin-top: -4%;
+  }
+  .inputField{
+    width: 70%;
+  }
+  }
